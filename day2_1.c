@@ -1,3 +1,4 @@
+// String Input and count Vowels, Consonants and Digits
 #include<stdio.h>
 #include<ctype.h>
 

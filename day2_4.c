@@ -1,3 +1,4 @@
+// print every word in a new line
 #include <stdio.h>
 #include <ctype.h>
 

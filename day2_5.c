@@ -1,3 +1,4 @@
+//using function 
 #include<stdio.h>
 #include<string.h>
 
@@ -5,10 +6,10 @@ int main() {
     char s[1000];
     fgets(s, sizeof(s), stdin);
 
-    char *sr = strtok(s, " ");
-    while(sr != NULL){
-        printf("%s\n", sr);
-        sr = strtok(NULL, " ");
+    char *token = strtok(s, " ");
+    while(token != NULL){
+        printf("%s\n", token);
+        token = strtok(NULL, " ");
     }
     return 0;
 }

@@ -8,7 +8,7 @@ int main() {
     for (int i = 0; s[i] != '\0'; i++) {
         if (s[i] == ' ') {
             printf("\n"); 
-        } else if (s[i] != '\n') {
+        } else {
             printf("%c", s[i]);
         }
     }

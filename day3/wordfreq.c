@@ -1,3 +1,4 @@
+// Check how many times a word appears
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>

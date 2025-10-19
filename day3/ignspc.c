@@ -10,7 +10,7 @@ int main() {
         if (s[i]== '\n'||s[i]=='\t') {
             continue;
         }
-        if (isalnum(s[i]) || s[i]==' ') {
+        if (isalnum(s[i]) || s[i]==' ' || s[i]=='.' || s[i]==',' || s[i]==';') {
             putchar(s[i]);
         }
     }

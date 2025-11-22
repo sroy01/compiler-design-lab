@@ -56,11 +56,6 @@ int main() {
         bCount++;
         i++;
     }
-    
-    if(bCount==0){
-        printf("Not a match\n");
-        return 0;
-    }
 
     if(i==n){
         printf("Match\n");
